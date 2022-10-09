@@ -1,0 +1,85 @@
+.header {
+    background-image: url("../../assets//Software-Developer-design.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    padding-bottom:35rem;
+}
+
+.start {
+    padding-top: 10rem;
+
+}
+
+.start h1 {
+    font-size: 5rem;
+}
+
+.start .name:hover {
+    transition: all .3s ease-in-out;
+    color:#4DB5FF;
+}
+
+.me {
+    background-color: #4DB5FF;
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+}
+
+/* --------------- Buttons ----------------- */
+
+
+.buttons {
+    margin-top:2rem ;
+}
+
+.btn {
+    width: max-content;
+    display: inline-block;
+    padding: 1rem 1.2rem;
+    margin: 0.75rem;
+    border-radius: 0.4rem;
+    border: 1px solid #fff;
+
+}
+/* #4DB5FF */
+#btn1:hover {
+    color: #4DB5FF;
+    transition: all .3s ease-in-out;
+    background-color: #fff;
+    font-weight: 600;
+}
+
+#btn2:hover {
+    color: #fff;
+    transition: all .3s ease-in-out;
+    background-color: #4DB5FF;
+    font-weight: 600;
+}
+
+/* --------------- Social Icons ----------------- */
+
+.social {
+    padding: 60px;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 1.8rem;
+}
+
+.social a {
+    font-size: 30px;
+}
+
+.social a:hover {
+    color: #4DB5FF;
+    transition: all .3s ease-in-out;
+}
