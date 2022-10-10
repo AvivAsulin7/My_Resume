@@ -20,7 +20,9 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #4DB5FF;
+  color: #fff;
+  background-color: #25316D;
+  /* #222831 */
 }
 
 
@@ -29,7 +31,7 @@ h1,h2,h3,h4,h5 {
 }
 
 section {
-  margin-top: 8rem;
+  padding-top: 8rem;
   height: 100vh;
 }
 

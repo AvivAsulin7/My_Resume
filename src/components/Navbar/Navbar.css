@@ -1,7 +1,7 @@
 nav {
     background: rgba(0,0,0,0.3);
-    width: max-content;
-    display: block;
+    /* width: max-content;
+    display: block; */
     padding: 0.7rem 1.7rem;
     z-index: 2;
     position: fixed;
@@ -24,4 +24,9 @@ nav a {
 
 nav a:hover {
     background: rgba(0,0,0,0.3);
+}
+
+nav a.active {
+    background: #4DB5FF;
+    color: black;
 }
