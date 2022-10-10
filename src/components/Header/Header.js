@@ -2,8 +2,6 @@ import React from "react";
 import "./Header.css";
 import Buttons from "./Buttons";
 import SocialIcons from "./SocialIcons";
-import Londonremove from "../../assets/Londonremove.png";
-import { FaArrowAltCircleDown } from "react-icons/fa";
 
 const Header = () => {
   return (

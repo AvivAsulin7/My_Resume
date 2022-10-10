@@ -1,0 +1,68 @@
+.techno h4 {
+    display: flex;
+    justify-content: center;
+}
+
+.technologies {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    margin-top: 50px;
+}
+
+.techno-content {
+    border: 1px solid #fff;
+    padding: 1.2rem;
+    border-radius: 1rem;
+    background-color: #5F6F94;
+    /* background-image: url("../../assets//Software-Developer-design.png"); */
+}
+
+.techno-content:hover {
+    transition: all 400ms ease;
+    background: transparent;
+    /* background-image: url("../../assets//Software-Developer-design.png"); */
+  }
+
+.techno-img {
+    display: grid;
+    place-items: center;
+    border-radius: 15rem;
+}
+
+.techno-img img {
+    display: grid;
+    place-items: center;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    background-color: #fff;
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.techno-details {
+    padding-top: 20px;
+}
+
+.portfolio__item-cta {
+    display: flex;
+    gap: 0.2rem;
+    margin-bottom: 1rem;
+  }
+
+/* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
+@media screen and (max-width: 1024px) {
+    .technologies {
+      grid-template-columns: 1fr 1fr;
+      gap: 1.2rem;
+    }
+  }
+  
+  /* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
+  @media screen and (max-width: 600px) {
+    .technologies {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+  }
