@@ -1,68 +1,78 @@
-.techno h4 {
-    display: flex;
-    justify-content: center;
+.tech h5 {
+    text-align: center;
+    margin: 0 30px 30px;
 }
+
 
 .technologies {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 2rem;
-    margin-top: 50px;
+    width: 50%;
+    padding-bottom: 4rem;
 }
 
-.techno-content {
-    border: 1px solid #fff;
-    padding: 1.2rem;
-    border-radius: 1rem;
-    background-color: #5F6F94;
-    /* background-image: url("../../assets//Software-Developer-design.png"); */
+.techno {
+    background-color: transparent;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    user-select: none;
+    height: 20%;
 }
 
-.techno-content:hover {
-    transition: all 400ms ease;
-    background: transparent;
-    /* background-image: url("../../assets//Software-Developer-design.png"); */
-  }
-
-.techno-img {
-    display: grid;
-    place-items: center;
-    border-radius: 15rem;
-}
-
-.techno-img img {
-    display: grid;
-    place-items: center;
-    border-radius: 1.5rem;
+.logo {
+    width: 10rem;
+    height: 10rem;
+    aspect-ratio: 1/1;
     overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+    border: 1px solid black;
     background-color: #fff;
-    display: block;
-    width: 100%;
-    object-fit: cover;
+    padding: 0.5rem;
+
 }
 
 .techno-details {
-    padding-top: 20px;
+    padding: 3rem 5rem 1.5rem;
+    margin-bottom:1rem ;
+    background: #222831;
+    border-radius: 2rem;
 }
 
-.portfolio__item-cta {
-    display: flex;
-    gap: 0.2rem;
-    margin-bottom: 1rem;
-  }
+.description {
+    font-size: 0.9rem;
+    display: block;
+    width: 80%;
+    margin: 0.8rem auto 0;
+
+}
 
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
 @media screen and (max-width: 1024px) {
     .technologies {
-      grid-template-columns: 1fr 1fr;
-      gap: 1.2rem;
+      width: 60%;
+    }
+
+    .techno-details {
+        padding: 3rem 2rem 1.5rem;
+    }
+    .techno {
+        padding-bottom: 1.5rem;
     }
   }
   
   /* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
   @media screen and (max-width: 600px) {
     .technologies {
-      grid-template-columns: 1fr;
-      gap: 1rem;
+      width: 90%;
     }
+
+    .techno-details {
+        padding: 3rem 1rem 1.5rem;
+    }
+    .techno {
+        padding-bottom: 1rem;
+    }
+  
   }
+  
+  

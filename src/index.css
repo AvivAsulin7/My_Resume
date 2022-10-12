@@ -35,12 +35,12 @@ h1,h2,h3,h4,h5 {
 h2 {
   display: flex;
   justify-content: center;
-  margin-bottom:40px ;
+ ;
 }
 
 section {
-  padding-top: 8rem;
-  height: 100vh;
+  margin-top: 8rem;
+  /* height: 140vh; */
 }
 
 header {

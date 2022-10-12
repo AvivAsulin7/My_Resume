@@ -6,13 +6,13 @@ import { FaFacebookSquare } from "react-icons/fa";
 const SocialIcons = () => {
   return (
     <div className="social">
-      <a href="https://linkdein.com" target="_blank">
+      <a href="https://www.linkedin.com/in/avivasulin7/" target="_blank">
         <BsLinkedin />
       </a>
-      <a href="https://github.com" target="_blank">
+      <a href="https://github.com/AvivAsulin7" target="_blank">
         <FaGithub />
       </a>
-      <a href="https://facebook.com" target="_blank">
+      <a href="https://www.facebook.com/aviv.asulin.9" target="_blank">
         <FaFacebookSquare />
       </a>
     </div>

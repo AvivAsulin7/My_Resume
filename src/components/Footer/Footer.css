@@ -1,0 +1,73 @@
+footer {
+    background: #222831;
+    background-image: url("../../assets//blurbackground.png");
+    background-size: 100%;
+    padding: 3rem 0 9rem;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 7rem;
+}
+
+footer a {
+    color: #fff;
+}
+
+.footer-name {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  display: inline-block;
+}
+/* #4DB5FF */
+.footer-name:hover {
+    color: #4DB5FF;
+    transition: all 400ms ease;
+
+}
+
+.footer-socials {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .footer-socials a {
+    background: #1C3879;
+    color: #fff;
+    padding: 0.8rem;
+    border-radius: 0.7rem;
+    display: flex;
+    border: 1px solid transparent;
+  }
+  
+  .footer-socials a:hover {
+    transition: all 400ms ease;
+    background: transparent;
+    color: #1C3879;
+    border-color:#1C3879 ;
+  }
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 auto 3rem;
+}
+ ul a:hover {
+    transition: all 400ms ease;
+    color: #4DB5FF;
+ }
+
+/* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
+@media screen and (max-width: 600px) {
+    ul {
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+  
+    .footer-socials {
+      margin-bottom: 2.6rem;
+    }
+  }

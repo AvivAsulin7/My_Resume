@@ -1,15 +1,16 @@
-#skills {
-  height: 70vh;
-}
-
 .skills {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap:2rem;
 }
 
+#skills h5 {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
 .skills > div {
-    background: #222831;
+  background-image: url("../../assets//blurbackground.png");
     padding: 2.4rem 5rem;
     border-radius: 2rem;
     border: 1px solid transparent;
@@ -18,7 +19,7 @@
   .skills > div:hover {
     transition: all 400ms ease;
     background: transparent;
-    border-color: var(--color-primary-variant);
+    border-color:  #fff;
     cursor: default;
   }
   

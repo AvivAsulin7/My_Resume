@@ -1,0 +1,69 @@
+#contact h5 {
+    text-align: center;
+}
+
+.contact {
+    margin-top: 30px;
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+}
+
+.contact-options {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.option {
+    background: #222831;
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border:1px solid transparent;
+}
+
+.option:hover {
+    transition: all 400ms ease;
+    background: transparent;
+    border-color: #fff;
+}
+
+.option a {
+    color: #4DB5FF;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap:1.2rem
+}
+
+input , textarea {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #fff;
+    background-color: transparent;
+    resize: none;
+    color: #fff;
+}
+
+ 
+  /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
+  @media screen and (max-width: 1024px) {
+    .contact {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+  }
+  
+  /* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
+  @media screen and (max-width: 600px) {
+    .contact {
+        width: 90%;
+    }
+
+  
+  }

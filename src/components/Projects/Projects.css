@@ -1,0 +1,98 @@
+.pro h5 {
+    display: flex;
+    justify-content: center;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    margin-top: 50px;
+}
+
+.projects-content {
+    border: 1px solid #fff;
+    padding: 1.2rem;
+    border-radius: 1rem;
+    background: #222831;
+    background-image: url("../../assets//Software-Developer-design.png"); 
+}
+
+.projects-content:hover {
+    transition: all 400ms ease;
+    background: transparent;
+    background-image: url("../../assets//blurbackground.png");
+  }
+
+.projects-img {
+    display: grid;
+    place-items: center;
+    border-radius: 15rem;
+}
+
+.projects-img img {
+    display: grid;
+    place-items: center;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    background-color: #fff;
+    display: block;
+    width: 100%;
+    object-fit: cover;
+  
+}
+
+.projects-details {
+    padding-top: 20px;
+}
+
+.buttons details {
+    display: flex;
+    gap: 0.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .btn1 {
+    width: max-content;
+    display: inline-block;
+    padding: 1rem 1.2rem;
+    margin: 0.75rem;
+    border-radius: 0.4rem;
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: #1363DF;
+
+}
+/* #4DB5FF */
+#btn3:hover {
+    color: #fff;
+    transition: all .3s ease-in-out;
+    background-color: #1363DF;
+
+}
+
+/* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
+@media screen and (max-width: 1024px) {
+  #projects {
+    height: 120vh;
+  
+  }
+
+  .projects {
+      grid-template-columns: 1fr 1fr;
+      gap: 1.2rem;
+    }
+  }
+  
+  /* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
+  @media screen and (max-width: 600px) {
+    #projects {
+      height: 320vh;
+    
+    }
+
+    .projects {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+  }
