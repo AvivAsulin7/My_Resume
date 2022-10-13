@@ -18,12 +18,24 @@ const Projects = () => {
                 <div className="projects-details">
                   <h3>{item.name}</h3>
                   <div className="buttons details">
-                    <a href="" className="btn" id="btn1" target="_blank">
+                    <a
+                      href={item.githubCode}
+                      className="btn"
+                      id="btn1"
+                      target="_blank"
+                    >
                       GitHub Code
                     </a>
-                    <a href="" className="btn1" id="btn3" target="_blank">
-                      Link
-                    </a>
+                    {item.link !== "" ? (
+                      <a
+                        href={item.link}
+                        className="btn1"
+                        id="btn3"
+                        target="_blank"
+                      >
+                        Link to website
+                      </a>
+                    ) : null}
                   </div>
                 </div>
               </div>

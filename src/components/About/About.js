@@ -26,7 +26,7 @@ const About = () => {
             self-learning projects.
             <br />
             Apart from my bachelor's degree studies, I am learning new languages
-            ​​and different technologies myself in order to improve my
+            ​​and different technologies by myself in order to improve my
             programming skills.
             <br />
             <GiCheckMark className="icon-check" />
