@@ -11,10 +11,10 @@ const Contact = () => {
     e.preventDefault();
     console.log(form.current);
     emailjs.sendForm(
-      "service_pnl50l9",
-      "template_11x3t3a",
+      process.env.REACT_APP_SERVICE,
+      process.env.REACT_APP_TEMPLATE,
       form.current,
-      "6AEGDwyK0Jz3qTamO"
+      process.env.REACT_APP_USER
     );
 
     e.target.reset();
