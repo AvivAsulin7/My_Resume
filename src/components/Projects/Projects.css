@@ -87,7 +87,7 @@
   /* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
   @media screen and (max-width: 600px) {
     #projects {
-      height: 370vh;
+      height: 350vh;
     
     }
 
