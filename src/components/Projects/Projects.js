@@ -24,7 +24,7 @@ const Projects = () => {
                       id="btn1"
                       target="_blank"
                     >
-                      GitHub Code
+                      GitHub
                     </a>
                     {item.link !== "" ? (
                       <a
@@ -33,7 +33,7 @@ const Projects = () => {
                         id="btn3"
                         target="_blank"
                       >
-                        Link to website
+                        Link
                       </a>
                     ) : null}
                   </div>

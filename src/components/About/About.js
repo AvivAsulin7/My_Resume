@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import London_style2 from "../../assets/London_style2.png";
+import London_style2 from "../../assets/London_style2.webp";
 import { GiCheckMark } from "react-icons/gi";
 
 const About = () => {
@@ -22,15 +22,16 @@ const About = () => {
             I'm 3rd Year Computer Science Student with 2 semesters left at Sapir
             Academic College. <br />
             <GiCheckMark className="icon-check" />
+            Current GPA 90. <br />
+            <GiCheckMark className="icon-check" />
             As a student, I divide my time between Collage tasks and
             self-learning projects.
             <br />
+            <GiCheckMark className="icon-check" />
             Apart from my bachelor's degree studies, I am learning new languages
             ​​and different technologies by myself in order to improve my
             programming skills.
             <br />
-            <GiCheckMark className="icon-check" />
-            Current GPA 90. <br />
             <GiCheckMark className="icon-check" />
             Currently I'm looking for a part-time student position/internship.
           </p>

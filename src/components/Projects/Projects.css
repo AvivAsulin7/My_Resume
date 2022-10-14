@@ -15,13 +15,13 @@
     padding: 1.2rem;
     border-radius: 1rem;
     background: #222831;
-    background-image: url("../../assets//Software-Developer-design.png"); 
+    background-image: url("../../assets//Software-Developer-design.webp"); 
 }
 
 .projects-content:hover {
     transition: all 400ms ease;
     background: transparent;
-    background-image: url("../../assets//blurbackground.png");
+    background-image: url("../../assets//blurbackground.webp");
   }
 
 .projects-img {
@@ -61,8 +61,8 @@
     border: 1px solid #fff;
     background-color: transparent;
     color: #fff;
-
 }
+
 /* #4DB5FF */
 #btn3:hover {
     color: #fff;
@@ -74,7 +74,7 @@
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
 @media screen and (max-width: 1024px) {
   #projects {
-    height: 120vh;
+    height: 145vh;
   
   }
 
@@ -87,7 +87,7 @@
   /* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
   @media screen and (max-width: 600px) {
     #projects {
-      height: 320vh;
+      height: 370vh;
     
     }
 

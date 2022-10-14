@@ -9,12 +9,12 @@ const Contact = () => {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-
+    console.log(form.current);
     emailjs.sendForm(
-      "service_pnl50l9",
-      "template_11x3t3a",
+      process.env.REACT_APP_SERVICE_ID,
+      process.env.REACT_APP_TEMPLATE_ID,
       form.current,
-      "6AEGDwyK0Jz3qTamO"
+      process.env.REACT_APP_USER_ID
     );
 
     e.target.reset();

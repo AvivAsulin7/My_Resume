@@ -1,16 +1,16 @@
-import react from "../assets/react.png";
-import mongo from "../assets/mongo.png";
-import nodejs from "../assets/nodejs.png";
-import github from "../assets/github.png";
-import java from "../assets/java.png";
-import games from "../assets/games.jpg";
-import gym from "../assets/gym.jpg";
-import memories from "../assets/memories.jpg";
-import todolist from "../assets/todolist.jpg";
-import notes from "../assets/notes.jpg";
-import resume from "../assets/resume.jpg";
-import firebase from "../assets/firebase.png";
-import render from "../assets/render.jpg";
+import react from "../assets/react.webp";
+import mongo from "../assets/mongo.webp";
+import nodejs from "../assets/nodejs.webp";
+import github from "../assets/github.webp";
+import java from "../assets/java.webp";
+import firebase from "../assets/firebase.webp";
+import render from "../assets/render.webp";
+import games from "../assets/games.webp";
+import gym from "../assets/gym.webp";
+import memories from "../assets/memories.webp";
+import todolist from "../assets/todolist.webp";
+import notes from "../assets/notes.webp";
+import resume from "../assets/resume.webp";
 
 export const technologies = [
   {
