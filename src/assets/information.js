@@ -9,7 +9,7 @@ import games from "../assets/games.webp";
 import gym from "../assets/gym.webp";
 import memories from "../assets/memories.webp";
 import todolist from "../assets/todolist.webp";
-import notes from "../assets/notes.webp";
+import travels from "../assets/travels.png";
 import resume from "../assets/resume.webp";
 
 export const technologies = [
@@ -96,10 +96,10 @@ export const projects = [
     link: "",
   },
   {
-    name: "Notes App",
+    name: "Travel Sharing App",
     Languages: "",
-    img: notes,
-    githubCode: "https://github.com/AvivAsulin7/Notes",
-    link: "https://avivasulin7.github.io/Notes/",
+    img: travels,
+    githubCode: "https://github.com/AvivAsulin7/Travel-Sharing-App",
+    link: "https://travel-app-ww2y.onrender.com/",
   },
 ];
