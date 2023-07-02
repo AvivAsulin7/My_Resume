@@ -28,6 +28,13 @@ const Skills = () => {
             <article className="skill-details">
               <BsPatchCheckFill className="skill-details-icon" />
               <div>
+                <h4>JavaScript</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="skill-details">
+              <BsPatchCheckFill className="skill-details-icon" />
+              <div>
                 <h4>CSS</h4>
                 <small className="text-light">Experienced</small>
               </div>
@@ -35,8 +42,8 @@ const Skills = () => {
             <article className="skill-details">
               <BsPatchCheckFill className="skill-details-icon" />
               <div>
-                <h4>JavaScript</h4>
-                <small className="text-light">Experienced</small>
+                <h4>TypeScript</h4>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="skill-details">
@@ -46,19 +53,12 @@ const Skills = () => {
                 <small className="text-light">Experienced</small>
               </div>
             </article>
-            <article className="skill-details">
-              <BsPatchCheckFill className="skill-details-icon" />
-              <div>
-                <h4>Bootstrap</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
           </div>
         </div>
 
         {/* ----------------------------------------------------------------- */}
         <div className="backend">
-          <h3>backend Skills</h3>
+          <h3>Backend Skills</h3>
           <div className="skills-content">
             <article className="skill-details">
               <BsPatchCheckFill className="skill-details-icon" />
@@ -84,7 +84,7 @@ const Skills = () => {
             <article className="skill-details">
               <BsPatchCheckFill className="skill-details-icon" />
               <div>
-                <h4>C++</h4>
+                <h4>Django</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
@@ -93,6 +93,13 @@ const Skills = () => {
               <div>
                 <h4>MongoDB</h4>
                 <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="skill-details">
+              <BsPatchCheckFill className="skill-details-icon" />
+              <div>
+                <h4>MySQL</h4>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
           </div>

@@ -19,21 +19,16 @@ const About = () => {
             Hello everyone! <br /> My name is Aviv , and I would like to tell
             you about myself: <br />
             <GiCheckMark className="icon-check" />
-            I'm 3rd Year Computer Science Student with 2 semesters left at Sapir
-            Academic College. <br />
+            I'm enthusiastic and passionate full stack developer. <br />
             <GiCheckMark className="icon-check" />
-            Current GPA 90. <br />
-            <GiCheckMark className="icon-check" />
-            As a student, I divide my time between Collage tasks and
-            self-learning projects.
+            Currently I'm full Stack developer in Metgo as internship position.
             <br />
             <GiCheckMark className="icon-check" />
-            Apart from my bachelor's degree studies, I am learning new languages
-            ​​and different technologies by myself in order to improve my
-            programming skills.
-            <br />
+            B.Sc. in Computer Science with GPA 90. <br />
             <GiCheckMark className="icon-check" />
-            Currently I'm looking for a part-time student position/internship.
+            Highly skilled in creating independent development projects. <br />
+            <GiCheckMark className="icon-check" />I am looking for Full Stack
+            Developer position.
           </p>
 
           <a href="#contact" className="btn" id="btn1">

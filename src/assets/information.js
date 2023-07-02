@@ -3,13 +3,14 @@ import mongo from "../assets/mongo.webp";
 import nodejs from "../assets/nodejs.webp";
 import github from "../assets/github.webp";
 import java from "../assets/java.webp";
-import firebase from "../assets/firebase.webp";
+import django from "../assets/django.png";
 import render from "../assets/render.webp";
 import games from "../assets/games.webp";
 import gym from "../assets/gym.webp";
 import memories from "../assets/memories.webp";
-import todolist from "../assets/todolist.webp";
 import travels from "../assets/travels.png";
+import reactnative from "../assets/reactnative.png";
+import events from "../assets/events.png";
 import resume from "../assets/resume.webp";
 
 export const technologies = [
@@ -38,21 +39,27 @@ export const technologies = [
     img: nodejs,
   },
   {
+    name: "Django",
+    description:
+      "I used this framework as backend side to my project final. I'ts was wondetful to learn new technology.",
+    img: django,
+  },
+  {
     name: "MongoDB",
     description:
       "MongoDB is the database I am most comfortable working with in my projects. It is very convenient to use.",
     img: mongo,
   },
   {
-    name: "Firebase",
+    name: "React Native",
     description:
-      "With Firebase I deploy some of my projects. I found Firebase to be really simple and convenient for this purpose.",
-    img: firebase,
+      "I discovered mobile development as part of my internship at Metago, I really like developing in React Native.",
+    img: reactnative,
   },
   {
     name: "Render",
     description:
-      "Like Firebase, I discovered Render, which allows me to deploy my works . For me - the best way to do this. ",
+      "I discovered Render, which allows me to deploy my works . For me - the best way to do this. ",
     img: render,
   },
 ];
@@ -61,25 +68,24 @@ export const technologies = [
 
 export const projects = [
   {
+    name: "King Of Tickets",
+    Languages: "",
+    img: events,
+    githubCode: "https://github.com/AvivAsulin7/KingOfTickets",
+  },
+  {
+    name: "Travel Sharing App",
+    Languages: "",
+    img: travels,
+    githubCode: "https://github.com/AvivAsulin7/Travel-Sharing-App",
+    link: "https://travel-app-ww2y.onrender.com/",
+  },
+  {
     name: "Memories",
     Languages: "",
     img: memories,
     githubCode: "https://github.com/AvivAsulin7/Memories",
     link: "https://memories-original.onrender.com/",
-  },
-  {
-    name: "Console Games Store",
-    Languages: "",
-    img: games,
-    githubCode: "https://github.com/AvivAsulin7/Video-Games-Consoles-Shop",
-    link: "https://github.com/AvivAsulin7/Video-Games-Consoles-Shop",
-  },
-  {
-    name: "To Do List",
-    Languages: "",
-    img: todolist,
-    githubCode: "https://github.com/AvivAsulin7/To_Do_List",
-    link: "https://to-do-list-frontend.onrender.com/",
   },
   {
     name: "Gym Exercises App",
@@ -96,10 +102,10 @@ export const projects = [
     link: "",
   },
   {
-    name: "Travel Sharing App",
+    name: "Console Games Store",
     Languages: "",
-    img: travels,
-    githubCode: "https://github.com/AvivAsulin7/Travel-Sharing-App",
-    link: "https://travel-app-ww2y.onrender.com/",
+    img: games,
+    githubCode: "https://github.com/AvivAsulin7/Video-Games-Consoles-Shop",
+    link: "https://github.com/AvivAsulin7/Video-Games-Consoles-Shop",
   },
 ];
