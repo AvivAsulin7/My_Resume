@@ -27,6 +27,12 @@ export const technologies = [
     img: react,
   },
   {
+    name: "React Native",
+    description:
+      "I discovered mobile development as part of my internship at Metago, I really like developing in React Native.",
+    img: reactnative,
+  },
+  {
     name: "Java",
     description:
       "Java is the first language I learned, and I feel comfortable working with it. During my studies I mostly used Java.",
@@ -44,18 +50,7 @@ export const technologies = [
       "I used this framework as backend side to my project final. I'ts was wondetful to learn new technology.",
     img: django,
   },
-  {
-    name: "MongoDB",
-    description:
-      "MongoDB is the database I am most comfortable working with in my projects. It is very convenient to use.",
-    img: mongo,
-  },
-  {
-    name: "React Native",
-    description:
-      "I discovered mobile development as part of my internship at Metago, I really like developing in React Native.",
-    img: reactnative,
-  },
+
   {
     name: "Render",
     description:
@@ -69,43 +64,63 @@ export const technologies = [
 export const projects = [
   {
     name: "King Of Tickets",
-    Languages: "",
+    Languages: "React | Django | MySQL | MUI | Google Maps API",
     img: events,
     githubCode: "https://github.com/AvivAsulin7/KingOfTickets",
   },
   {
     name: "Travel Sharing App",
-    Languages: "",
+    Languages: "React | Express.js | MongoDB | MUI | Google Maps API | JWT",
     img: travels,
     githubCode: "https://github.com/AvivAsulin7/Travel-Sharing-App",
     link: "https://travel-app-ww2y.onrender.com/",
   },
   {
     name: "Memories",
-    Languages: "",
+    Languages: "React | Express.js | MongoDB | Redux",
     img: memories,
     githubCode: "https://github.com/AvivAsulin7/Memories",
     link: "https://memories-original.onrender.com/",
   },
   {
     name: "Gym Exercises App",
-    Languages: "https://gym-exercises-app-47289.web.app/",
+    Languages: "React | MUI | Rapid API",
     img: gym,
     githubCode: "https://github.com/AvivAsulin7/Gym-Exercises-App",
     link: "https://gym-exercises-app-5cf0d.firebaseapp.com/",
   },
   {
     name: "My Resume",
-    Languages: "",
+    Languages: "React",
     img: resume,
     githubCode: "https://github.com/AvivAsulin7/My_Resume",
     link: "",
   },
   {
     name: "Console Games Store",
-    Languages: "",
+    Languages: "React | MUI",
     img: games,
     githubCode: "https://github.com/AvivAsulin7/Video-Games-Consoles-Shop",
     link: "https://github.com/AvivAsulin7/Video-Games-Consoles-Shop",
   },
+];
+
+//============================================================================//
+
+export const frontend = [
+  { skill: "React", level: "Advanced" },
+  { skill: "JavaScript", level: "Advanced" },
+  { skill: "TypeScript", level: "Intermediate" },
+  { skill: "HTML", level: "Advanced" },
+  { skill: "CSS", level: "Advanced" },
+  { skill: "Material UI", level: "Advanced" },
+];
+
+export const backend = [
+  { skill: "Java", level: "Advanced" },
+  { skill: "Python", level: "Intermediate" },
+  { skill: "Node.js", level: "Advanced" },
+  { skill: "Django", level: "Intermediate" },
+  { skill: "MongoDB", level: "Advanced" },
+  { skill: "MySQL", level: "Intermediate" },
 ];

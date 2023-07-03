@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Finlandica&family=Gulzar&family=Merriweather:wght@400;700;900&family=Montserrat:wght@400;900&family=Poppins:wght@400;500;600&family=Rancho&family=Roboto&family=Shadows+Into+Light&family=Ubuntu:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cookie&family=Finlandica&family=Gulzar&family=Merriweather:wght@400;700;900&family=Montserrat:wght@400;900&family=Poppins:wght@400;500;600&family=Rancho&family=Roboto&family=Shadows+Into+Light&family=Ubuntu:wght@300;400;700&display=swap");
 
 * {
   margin: 0;
@@ -23,10 +23,9 @@ body {
   color: #fff;
   line-height: 1.7;
 
-  background-color: #25316D;
+  background-color: #25316d;
   /* #222831 */
 }
-
 
 h1,
 h2,
@@ -39,7 +38,6 @@ h5 {
 h2 {
   display: flex;
   justify-content: center;
-  ;
 }
 
 section {
@@ -62,6 +60,7 @@ a {
 
 .text-light {
   color: rgba(255, 255, 255, 0.6);
+  font-size: 87%;
 }
 
 img {
@@ -87,7 +86,7 @@ img {
     width: 90%;
   }
 
-  section>h2 {
+  section > h2 {
     margin-bottom: 2rem;
   }
 }

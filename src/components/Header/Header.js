@@ -13,8 +13,10 @@ const Header = () => {
           </a>
         </h1>
         <h2>Fullstack Developer</h2>
-        <Buttons />
-        <SocialIcons />
+        <div>
+          <Buttons />
+          <SocialIcons />
+        </div>
       </div>
     </header>
   );

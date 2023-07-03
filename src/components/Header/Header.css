@@ -1,103 +1,145 @@
 .header {
-    background-image: url("../../assets//Software-Developer-design.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    padding-top: 8rem;
-    background-position: center;
-    text-align: center;
-    color: #fff;
-    overflow: hidden;
+  background-image: url("../../assets//Software-Developer-design.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding-top: 8rem;
+  background-position: center;
+  text-align: center;
+  color: #fff;
+  overflow: hidden;
 }
 
 .start {
-    height: 100%;
+  height: 100%;
+}
+
+@keyframes moveToRight {
+  from {
+    transform: translateX(-50px);
+  }
+  to {
+    transform: translateX(110vw);
+  }
+}
+
+@keyframes moveToLeft {
+  from {
+    transform: translateX(50%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .start h1 {
-    font-size: 5rem;
+  animation: moveToRight 2s linear reverse;
+  font-size: 5rem;
+}
+
+.start h2 {
+  animation: moveToRight 2s linear reverse;
 }
 
 .start .name:hover {
-    transition: all .3s ease-in-out;
-    color:#4DB5FF;
+  transition: all 0.3s ease-in-out;
+  color: #4db5ff;
 }
 
 .me {
-    background-color: #4DB5FF;
-    width: 22rem;
-    height: 30rem;
-    position: absolute;
-    left: calc(50% - 11rem);
-    margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
+  background-color: #4db5ff;
+  width: 22rem;
+  height: 30rem;
+  position: absolute;
+  left: calc(50% - 11rem);
+  margin-top: 4rem;
+  border-radius: 12rem 12rem 0 0;
+}
+
+@keyframes approach {
+  0% {
+    opacity: 0;
+    transform: translateZ(-1000px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateZ(0);
+  }
 }
 
 /* --------------- Buttons ----------------- */
 
-
 .buttons {
-    margin-top:2rem ;
+  margin-top: 2rem;
+  animation: approach 2.5s ease-in-out;
 }
 
 .btn {
-    width: max-content;
-    display: inline-block;
-    padding: 1rem 1.2rem;
-    margin: 0.75rem;
-    border-radius: 0.4rem;
-    border: 1px solid #fff;
-
+  width: max-content;
+  display: inline-block;
+  padding: 1rem 1.2rem;
+  margin: 0.75rem;
+  border-radius: 0.4rem;
+  border: 1px solid #fff;
 }
 /* #4DB5FF */
 #btn1:hover {
-    color: #4DB5FF;
-    transition: all .3s ease-in-out;
-    background-color: #fff;
-
+  color: #4db5ff;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
 }
 
 #btn2:hover {
-    color: #fff;
-    transition: all .3s ease-in-out;
-    background-color: #4DB5FF;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  background-color: #4db5ff;
 }
 
 /* --------------- Social Icons ----------------- */
 
 .social {
-    padding: 60px;
-    display: flex;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    gap: 1.8rem;
+  padding: 60px;
+  display: flex;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  gap: 1.8rem;
 }
 
 .social a {
-    font-size: 30px;
+  animation: reveal 2s linear;
+}
+
+.social a {
+  font-size: 30px;
 }
 
 .social a:hover {
-    color: #4DB5FF;
-    transition: all .3s ease-in-out;
+  color: #4db5ff;
+  transition: all 0.3s ease-in-out;
 }
 
-
- 
-  /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
-  @media screen and (max-width: 1024px) {
-    .header {
-        height: 60vh;
-      }
+/* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
+@media screen and (max-width: 1024px) {
+  .header {
+    height: 60vh;
   }
-  
-  /* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
-  @media screen and (max-width: 600px) {
+}
 
-    .header {
-      height: 90vh;
-    }
-  
+/* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
+@media screen and (max-width: 600px) {
+  .header {
+    height: 90vh;
   }
-  
+}

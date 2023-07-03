@@ -1,7 +1,7 @@
 .skills {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap:2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
 }
 
 #skills h5 {
@@ -11,75 +11,71 @@
 
 .skills > div {
   background-image: url("../../assets//blurbackground.webp");
-    padding: 2.4rem 5rem;
-    border-radius: 2rem;
-    border: 1px solid transparent;
-  }
-  
-  .skills > div:hover {
-    transition: all 400ms ease;
-    background: transparent;
-    border-color:  #fff;
-    cursor: default;
-  }
-  
-  .skills > div h3 {
-    text-align: center;
-    margin-bottom: 2rem;
-  }
+  padding: 2.4rem 5rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+}
+
+.skills > div:hover {
+  transition: all 400ms ease;
+  background: transparent;
+  border-color: #fff;
+  cursor: default;
+}
+
+.skills > div h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
 
 .skills-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2rem;
+}
+
+.skill-details {
+  display: flex;
+  gap: 1rem;
+}
+
+.skill-details-icon {
+  margin-top: 6px;
+}
+
+/* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
+@media screen and (max-width: 1024px) {
+  #skills {
+    height: 80vh;
   }
-  
-  .skill-details {
-    display: flex;
+
+  .skills {
+    grid-template-columns: 1fr;
+  }
+
+  .skills > div {
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+  }
+
+  .skills-content {
+    padding: 1rem;
+  }
+}
+
+/* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
+@media screen and (max-width: 600px) {
+  .skills {
     gap: 1rem;
   }
-  
-  .skill-details-icon {
-    margin-top: 6px;
 
+  .skills > div {
+    width: 100%;
+    padding: 2rem 1rem;
   }
 
-  
-  /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
-  @media screen and (max-width: 1024px) {
-    #skills {
-      height: 80vh;
-    }
-
-    .skills {
-      grid-template-columns: 1fr;
-    }
-  
-    .skills > div {
-      width: 80%;
-      padding: 2rem;
-      margin: 0 auto;
-    }
-  
-    .skills-content {
-      padding: 1rem;
-    }
+  #skills {
+    height: 110vh;
   }
-  
-  /* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
-  @media screen and (max-width: 600px) {
-    .skills {
-      gap: 1rem;
-    }
-  
-    .skills > div {
-      width: 100%;
-      padding: 2rem 1rem;
-    }
-
-    #skills {
-      height: 110vh;
-    }
-  
-  }
-  
+}

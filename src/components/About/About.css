@@ -1,45 +1,50 @@
 #about h2 {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .icon-check {
   margin-right: 1rem;
-  color: #3CCF4E;
+  color: #3ccf4e;
 }
 
 .about {
-    display: grid;
-    grid-template-columns: 40% 40%;
-    gap: 15%;
-  }
-  
-  .about-me {
-    width: 100%;
-    border-radius: 2rem;
-    display: grid;
-    place-items: center;
-    justify-content: end;
-    padding-top: 50px;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 15%;
+}
 
-  }
-  
-  .about-me-image {
-    border-radius: 2rem;
-    overflow: hidden;
-  }
+.about-me {
+  width: 100%;
+  border-radius: 2rem;
+  display: grid;
+  place-items: center;
+  justify-content: end;
+  padding-top: 50px;
+}
 
-  .about-me-image:hover {
-  transform: scale(1.1);
-  transition: transform 1s;
-  }
+.about-me-image {
+  border-radius: 2rem;
+  overflow: hidden;
+  animation: rotate 9s linear forwards infinite;
+}
 
-  .about-content p {
-    margin: 6rem 0 2.6rem;
-    font-size: 0.9rem;
-  
+.about-content p {
+  margin: 6rem 0 2.6rem;
+  font-size: 1.1rem;
+}
 
+@keyframes rotate {
+  0% {
+    transform: rotate(7deg);
   }
-  
+  50% {
+    transform: rotate(-7deg);
+  }
+  100% {
+    transform: rotate(7deg);
+  }
+}
+
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
 @media screen and (max-width: 1024px) {
   #about {
@@ -47,42 +52,36 @@
     padding-top: 0;
   }
 
-    .about {
-      grid-template-columns: 1fr;
-      gap: 0;
-    }
-  
-    .about-me {
-      width: 50%;
-      margin: 2rem auto 4rem;
-    }
-
-    
-  
-    .about-content p {
-      margin: 1rem 0 1.5rem;
-    }
+  .about {
+    grid-template-columns: 1fr;
+    gap: 0;
   }
-  
 
-
-  /* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
-  @media screen and (max-width: 600px) {
-    #about {
-      height: 120vh;
-  
-    }
-    .about-me {
-      width: 65%;
-      margin: 0 auto 3rem;
-    }
-
-    .about-content {
-      text-align: center;
-    }
-  
-    .about-content p {
-      margin: 1.5rem 0;
-    }
+  .about-me {
+    width: 50%;
+    margin: 2rem auto 4rem;
   }
-  
+
+  .about-content p {
+    margin: 1rem 0 1.5rem;
+  }
+}
+
+/* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
+@media screen and (max-width: 600px) {
+  #about {
+    height: 120vh;
+  }
+  .about-me {
+    width: 65%;
+    margin: 0 auto 3rem;
+  }
+
+  .about-content {
+    text-align: center;
+  }
+
+  .about-content p {
+    margin: 1.5rem 0;
+  }
+}

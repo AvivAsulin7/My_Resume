@@ -17,6 +17,7 @@ const Projects = () => {
                 </div>
                 <div className="projects-details">
                   <h3>{item.name}</h3>
+                  <small className="text-light">{item.Languages}</small>
                   <div className="buttons details">
                     <a
                       href={item.githubCode}
