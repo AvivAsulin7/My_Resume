@@ -23,9 +23,18 @@
 }
 
 .about-me-image {
-  border-radius: 2rem;
-  overflow: hidden;
   animation: rotate 9s linear forwards infinite;
+  width: 280px;
+  height: 330px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transform-origin: 10% 60%;
+}
+
+.about-me-image img {
+  border-radius: 2rem;
 }
 
 .about-content p {
@@ -45,6 +54,27 @@
   }
 }
 
+.card-container {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: -120px;
+  width: 100%;
+}
+
+.splash {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  clip-path: path(
+    "M 0 303.5 C 0 292.454 8.995 285.101 20 283.5 L 460 219.5 C 470.085 218.033 480 228.454 480 239.5 L 500 430 C 500 441.046 491.046 450 480 450 L 20 450 C 8.954 450 0 441.046 0 430 Z"
+  );
+}
+
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
 @media screen and (max-width: 1024px) {
   #about {
@@ -57,13 +87,18 @@
     gap: 0;
   }
 
-  .about-me {
-    width: 50%;
-    margin: 2rem auto 4rem;
+  .card-container {
+    width: 80%;
+    margin: auto;
+  }
+
+  .about-me-image {
+    width: 300px;
+    height: 380px;
   }
 
   .about-content p {
-    margin: 1rem 0 1.5rem;
+    margin: 5rem 0 1.5rem;
   }
 }
 
@@ -72,9 +107,19 @@
   #about {
     height: 120vh;
   }
-  .about-me {
-    width: 65%;
-    margin: 0 auto 3rem;
+
+  .card-container {
+    width: 95%;
+    height: 340px;
+  }
+
+  .about-me-image {
+    width: 220px;
+    height: 300px;
+  }
+
+  .about-content p {
+    margin: 5rem 0 1.5rem;
   }
 
   .about-content {
@@ -82,6 +127,6 @@
   }
 
   .about-content p {
-    margin: 1.5rem 0;
+    margin: 6rem 0;
   }
 }

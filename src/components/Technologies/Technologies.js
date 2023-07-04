@@ -1,7 +1,7 @@
 import React from "react";
 import "./Technologies.css";
 import { technologies } from "../../assets/information";
-import { Pagination, Navigation } from "swiper";
+import { Pagination } from "swiper";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
