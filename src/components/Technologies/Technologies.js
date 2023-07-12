@@ -26,6 +26,13 @@ const Technologies = () => {
           spaceBetween={40}
           slidesPerView={1}
           pagination={{ clickable: true }}
+          style={{
+            "--swiper-pagination-color": "#4db5ff",
+            "--swiper-pagination-bullet-inactive-color": "#999999",
+            "--swiper-pagination-bullet-inactive-opacity": "1",
+            "--swiper-pagination-bullet-size": "16px",
+            "--swiper-pagination-bullet-horizontal-gap": "6px",
+          }}
         >
           {technologies.map((item, index) => {
             return (

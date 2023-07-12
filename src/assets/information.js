@@ -109,6 +109,7 @@ export const projects = [
 
 export const frontend = [
   { skill: "React", level: "Advanced" },
+  { skill: "React Native", level: "Intermediate" },
   { skill: "JavaScript", level: "Advanced" },
   { skill: "TypeScript", level: "Intermediate" },
   { skill: "HTML", level: "Advanced" },
