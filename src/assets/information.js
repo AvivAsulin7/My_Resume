@@ -1,5 +1,4 @@
 import react from "../assets/react.webp";
-import mongo from "../assets/mongo.webp";
 import nodejs from "../assets/nodejs.webp";
 import github from "../assets/github.webp";
 import java from "../assets/java.webp";
@@ -12,6 +11,7 @@ import travels from "../assets/travels.png";
 import reactnative from "../assets/reactnative.png";
 import events from "../assets/events.png";
 import resume from "../assets/resume.webp";
+import movies from "../assets/movies.jpg";
 
 export const technologies = [
   {
@@ -74,6 +74,13 @@ export const projects = [
     img: travels,
     githubCode: "https://github.com/AvivAsulin7/Travel-Sharing-App",
     link: "https://travel-app-ww2y.onrender.com/",
+  },
+  {
+    name: "Movies Mobile App",
+    Languages: "React Native | TypeScript | API ",
+    img: movies,
+    githubCode: "https://github.com/AvivAsulin7/Video-Games-Consoles-Shop",
+    link: "",
   },
   {
     name: "Memories",

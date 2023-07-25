@@ -29,7 +29,7 @@ const Projects = () => {
                       >
                         GitHub
                       </a>
-                      {item.link !== "" ? (
+                      {item.link && (
                         <a
                           href={item.link}
                           className="btn1"
@@ -38,7 +38,7 @@ const Projects = () => {
                         >
                           Link
                         </a>
-                      ) : null}
+                      )}
                     </div>
                   </div>
                 </div>
