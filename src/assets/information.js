@@ -87,7 +87,7 @@ export const projects = [
     Languages: "React | Express.js | MongoDB | Redux",
     img: memories,
     githubCode: "https://github.com/AvivAsulin7/Memories",
-    link: "https://memories-original.onrender.com/",
+    link: "https://memories-6eop.onrender.com/",
   },
   {
     name: "Gym Exercises App",
@@ -108,7 +108,7 @@ export const projects = [
     Languages: "React | MUI",
     img: games,
     githubCode: "https://github.com/AvivAsulin7/Video-Games-Consoles-Shop",
-    link: "https://github.com/AvivAsulin7/Video-Games-Consoles-Shop",
+    link: "https://video-games-store-e66f7.web.app/",
   },
 ];
 
