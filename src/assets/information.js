@@ -12,6 +12,7 @@ import reactnative from "../assets/reactnative.png";
 import events from "../assets/events.png";
 import resume from "../assets/resume.webp";
 import movies from "../assets/movies.jpg";
+import countriesGame from "../assets/countriesGame.jpg";
 
 export const technologies = [
   {
@@ -79,8 +80,15 @@ export const projects = [
     name: "Movies Mobile App",
     Languages: "React Native | TypeScript | API ",
     img: movies,
-    githubCode: "https://github.com/AvivAsulin7/Video-Games-Consoles-Shop",
+    githubCode: "https://github.com/AvivAsulin7/Movies-Mobile-App",
     link: "",
+  },
+  {
+    name: "Countries & Capitals Cards Game",
+    Languages: "React | TypeScript | Redux | Framer Motion ",
+    img: countriesGame,
+    githubCode: "https://github.com/AvivAsulin7/Country-Capital-Game",
+    link: "https://avivasulin7.github.io/Country-Capital-Game/",
   },
   {
     name: "Memories",

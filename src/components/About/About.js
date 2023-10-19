@@ -51,11 +51,11 @@ const About = () => {
               <GiCheckMark className="icon-check" />
               I'm enthusiastic and passionate full stack developer. <br />
               <GiCheckMark className="icon-check" />
-              Currently I'm full Stack developer in MetGo as internship
-              position.
-              <br />
-              <GiCheckMark className="icon-check" />
               B.Sc. in Computer Science with GPA 90. <br />
+              <GiCheckMark className="icon-check" />
+              Experience in full-stack & mobile development (React, React
+              Native, NodeJS, MongoDB).
+              <br />
               <GiCheckMark className="icon-check" />
               Highly skilled in creating independent development projects.{" "}
               <br />
